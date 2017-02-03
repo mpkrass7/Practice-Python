@@ -1,4 +1,4 @@
-
+#Takes a user input number and returns all of it's divisors. Froze computer after typing in a number ~581000000
 
 def int_checker():
     while True:
