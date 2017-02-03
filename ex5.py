@@ -1,3 +1,5 @@
+#for finding common numbers in lists without duplicates
+
 import random
 
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
@@ -5,6 +7,8 @@ b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 b2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 c= []
 d= []
+
+#Generates two lists between 5 and 20 numbers in length. Finds duplicates and appends them to a third list
 
 def list_maker():
     count = 0
@@ -38,7 +42,8 @@ def list_maker():
         print "The two lists do not share any numbers"
 list_maker()
 
-
+#two procedures for finding duplicates in established lists. 
+#Could change either to a function requiring user input to decide on existing lists
 '''for number in a:
     x = number
     for number2 in b:
